@@ -10,8 +10,11 @@
 
   <title>Frontend Mentor | Social proof section</title>
 
-  <link rel="stylesheet" href="styles/styles.css" <!-- Feel free to remove these styles or customise in your own
-    stylesheet 👍 -->
+  <link rel="stylesheet" href="styles/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+
+  
   <style>
     .attribution {
       font-size: 11px;
@@ -28,93 +31,99 @@
 <body>
 
   <main class="main">
-    <section class=products>
-      <div class="product__description">
+    <section class="products">
+      <div class="products-description">
         <h1>10,000+ of our <br> users love our <br> products.</h1>
         <p>We only provide great products combined with excellent customer service.
           See what our satisfied customers are saying about our services.</p>
       </div>
-
-      <div class="product-score">
-        <div class="product__score1">
+    <div class="products-score">
+      <div class="product-score  one">
+        <div class="star">
+          <img src="images/icon-star.svg" alt="">
+          <img src="images/icon-star.svg" alt="">
+          <img src="images/icon-star.svg" alt="">
+          <img src="images/icon-star.svg" alt="">
+          <img src="images/icon-star.svg" alt="">
+        </div>
+        <p>Rated 5 Stars in Reviews</p>
+      </div>
+        <div class="product-score two">
           <div class="star">
-            <img src="images/icon-star.svg">
-            <img src="images/icon-star.svg">
-            <img src="images/icon-star.svg">
-            <img src="images/icon-star.svg">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
           </div>
-            <p>Rated 5 Stars in Reviews</p>
+          <p>Rated 5 Stars in Report Guru</p>
+        </div>
+        <div class="product-score three">
+          <div class="star">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
+            <img src="images/icon-star.svg" alt="">
           </div>
-          <div class="product-score">
-            <div class="product__score2">
-              <div class="star">
-                <img src="images/icon-star.svg">
-                <img src="images/icon-star.svg">
-                <img src="images/icon-star.svg">
-                <img src="images/icon-star.svg">
-              </div>
-                <p>Rated 5 Stars in Report Guru</p>
-              </div>
-              <div class="product-score">
-                <div class="product__score3">
-                  <div class="star">
-                    <img src="images/icon-star.svg">
-                    <img src="images/icon-star.svg">
-                    <img src="images/icon-star.svg">
-                    <img src="images/icon-star.svg">
-                  </div>
-                    <p>Rated 5 Stars in BestTech</p>
-                  </div>
-    </div>
-    </section>
-  </main>
+          <p>Rated 5 Stars in BestTech</p>
+        </div>
+    </div>        
+  </section>
+  
 
-  <div class="container">
-    <div class="row">
-      <div class="image">
+<!---section  two-->
+
+<section class="metions">
+  <div class="metions-detail metion-one" >
+    <div class="metion-person">
+      <div class="metion-person-img">
         <img src="images/image-colton.jpg" alt="">
-        <div class="details">
-          <h2>Colton Smith</h2>
-          <p>Verified Buyer</p>
-          <p>"We needed the same printed design as the one we had ordered a week prior.
-            Not only did they find the original order, but we also received it in time.
-            Excellent!"</p>
-        </div>
       </div>
-
-      <div class="image">
-        <img src="images/image-irene.jpg" alt="">
-        <div class="details">
-          <h2>Irene Roberts</h2>
-          <p>Verified Buyer</p>
-          <p>"Customer service is always excellent and very quick turn around. Completely
-            delighted with the simplicity of the purchase and the speed of delivery."!"</p>
-        </div>
+      <div class="metion-person-name">
+        <p><strong>Colton Smith </strong></p>
+        <p>Verified Buyer</p>
       </div>
-
-      <div class="image">
-        <img src="images/image-anne.jpg" alt="">
-        <div class="details">
-          <h2>Anne Wallace</h2>
-          <p>Verified Buyer</p>
-          <p>"Put an order with this company and can only praise them for the very high
-            standard. Will definitely use them again and recommend them to everyone!"</p>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
+    </div>
+    <div class="metion-detail-person">
+      <p>" We needed the same printed design as the one we had ordered a week prior.
+        Not only did they find the original order, but we also received it in time.
+        Excellent! "</p>
     </div>
   </div>
+  <div class="metions-detail metion-two">
+    <div class="metion-person">
+      <div class="metion-person-img">
+        <img src="images/image-irene.jpg" alt="">
+      </div>
+      <div class="metion-person-name">
+        <p><strong>Irene Roberts</strong></p>
+        <p>Verified Buyer</p>
+      </div>
+    </div>
+    <div class="metion-detail-person">
+      <p>" Customer service is always excellent and very quick turn around. Completely
+        delighted with the simplicity of the purchase and the speed of delivery. "</p>
+    </div>
+  </div>
+  <div class="metions-detail metion-three">
+    <div class="metion-person">
+      <div class="metion-person-img">
+        <img src="images/image-anne.jpg" alt="">
+      </div>
+      <div class="metion-person-name">
+        <p><strong>Anne Wallace</strong></p>
+        <p>Verified Buyer</p>
+      </div>
+    </div>
+    <div class="metion-detail-person">
+      <p>" Put an order with this company and can only praise them for the very high
+        standard. Will definitely use them again and recommend them to everyone! "</p>
+    </div>
+  </div>
+</section>
 
-
-
+</main>
 
   <div class="attribution">
     Challenge by
